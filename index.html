@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+            Food Security Hotspots
+        </title>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+        <script src="data.js"></script>
+        <script src="magic.js"></script>
+        <link rel = "icon" href = "https://i.dlpng.com/static/png/4071907-place-places-sports-icon-with-png-and-vector-format-for-free-place-png-512_512_preview.webp" 
+        type = "image/x-icon"> 
+        
+    </head>
+    <body>
+        
+         
+        <div class="title">
+            Food-Security Hotspots
+        </div>
+        <div class="content">
+            <marquee>Made By Shreekar Kolanu</marquee>
+       </div>
+      
+       <div class="search-container"  >
+            <div class="search">
+                <input id="zip-code-input"  type="text" placeholder="enter state name e.g. andhra or karnataka"></input>
+                <i class="fas fa-search" onclick="searchHospitals()"></i>
+            </div> 
+        </div>
+        <div class="hospitals-list-container">
+            <div class="hospitals-list">
+               
+            </div>
+        </div>
+       
+        <div id="map"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCzPMaJss7fAe0C-weO3Q1lzGZ2B3zy4A&callback=initMap"
+          async defer></script>
+    </body>
+</html>
