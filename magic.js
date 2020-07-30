@@ -121,7 +121,7 @@
                         <span>${address[0]}</span> 
                         <span>${address[1]}</span>
                     </div>
-                    <div class="hospital-phone-number">Covid affect: ${phone}</div>
+                    <div class="hospital-phone-number">${phone}</div>
                 </div>
                 <div class="hospital-number-container">
                     <div class="hospital-number">${index+1}</div>
