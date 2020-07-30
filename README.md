@@ -7,5 +7,5 @@
    - Google Maps API
    
 **WEBSITE IS LIVE**
-https://skillz619.github.io/Food-Security-Hotspot-Locator-Shreekar-Kolanu/
+https://skillz619.github.io/Food-Security-Hotspots-Locators-Shreekar-Kolanu/
 
