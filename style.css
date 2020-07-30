@@ -60,6 +60,58 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+.reddot{
+  position: absolute;
+  top: 50px;
+  color:red;
+  left: 1344px;
+  font-size: 20px;
+  z-index: 20;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+  opacity: 80%;
+  
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}.bluedot{
+  position: absolute;
+  top: 70px;
+  color:blue;
+  left: 1344px;
+  font-size: 20px;
+  z-index: 20;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+  opacity: 80%;
+  
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}.yellowdot{
+  position: absolute;
+  top: 90px;
+  color:yellow;
+  left: 1344px;
+  font-size: 20px;
+  z-index: 20;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+  opacity: 80%;
+  
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .search-container {
   width: 400px;
   height: 60px;
